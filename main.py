@@ -77,4 +77,4 @@ if predict_btn and canvas_result.image_data is not None:
             'Digit': list(range(10)),
             'Probability': [f"{p * 100:.2f}%" for p in probabilities]
         }
-        st.dataframe(prob_df, use_container_width=True, hide_index=True)
+        st.dataframe(prob_df, width='stretch', hide_index=True)
