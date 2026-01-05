@@ -12,7 +12,7 @@ if 'model' not in st.session_state:
         st.session_state.model.load_model()
     except FileNotFoundError:
         pass
-st.title("Digit Recognition System(Inaccurate on real-data[fuck])")
+st.title("Digit Recognition System(Inaccurate on real-data[fuck], now what does that mean? it means we overfitted lads fuck yeah)")
 st.write("Draw a digit (0-9) in the canvas below")
 
 col1, col2 = st.columns([2, 1])
@@ -22,7 +22,7 @@ with col1:
 
     canvas_result = st_canvas(
         fill_color="rgba(0, 0, 0, 0)",
-        stroke_width=30,
+        stroke_width=35,
         stroke_color="#FFFFFF",
         background_color="#000000",
         height=280,
