@@ -220,7 +220,6 @@ class NeuralNetwork:
         self.__B2 = model_data['B2']
         self.__W3 = model_data['W3']
         self.__B3 = model_data['B3']
-        print(model_data)
         # self.learning_rate = model_data['learning_rate']
         # self.epochs = model_data['epochs']
 
