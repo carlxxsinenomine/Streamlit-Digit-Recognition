@@ -13,7 +13,7 @@ if 'model' not in st.session_state:
     except FileNotFoundError:
         pass
 st.title("Digit Recognition System(Inaccurate on real-data[fuck], now what does that mean? it means we overfitted lads fuck yeah)")
-st.write("Draw a digit (0-9) in the canvas below")
+st.write("Draw a digit (0-9) in the canvas below(make sure to write the digit as centered as possible AHHAHAHAHA nxt time qnayan ayusin)")
 
 col1, col2 = st.columns([2, 1])
 
