@@ -22,7 +22,7 @@ with col1:
 
     canvas_result = st_canvas(
         fill_color="rgba(0, 0, 0, 0)",
-        stroke_width=20,
+        stroke_width=30,
         stroke_color="#FFFFFF",
         background_color="#000000",
         height=280,
